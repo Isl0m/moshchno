@@ -95,7 +95,7 @@ if ($_SESSION['user']) {
       async
       defer
     ></script>
-<script src="index.js"></script>
+<script src="auth.js"></script>
 </body>
 </html>
       
