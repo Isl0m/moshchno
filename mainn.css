@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: url(/mans.jpg) no-repeat top center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100vw 100vh;
+    font-size: 2.8vw;
+}
+
+.text {
+    margin: 3px;
+    margin-top: 11vh;
+    margin-left: 18vw;
+    width: 78vw;
+    height: 49vh;
+    max-width: 78vw;
+}
+
+.a1 {
+   margin: 0px;
+}
+
+.a2 {
+    margin-top: 8vh;
+}
+/*.guys {
+    margin: 0px;
+}*/
+
+.name {
+    position: absolute;
+    top: 45vh;
+    left: 44.5vw;
+    font-size: 2vw;
+}
+
+.i1 {
+    position: absolute;
+    left: 7.6vw;
+    background: none;
+    top: -3vh;
+    width: 13vw;
+    height: 6vw;
+}
+
+.i2 {
+    position: absolute;
+    top: -6vh;
+    left: 8vw;
+    background: none;
+    width: 13vw;
+    height: 11vh;
+    border: none !important;
+}
+
+.password {
+    position: absolute;
+    top: 54vh;
+    font-size: 2vw;
+    left: 45vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-weight: bold;
+}
+
+.enter {
+    position: absolute;
+    top: 51vh;
+    left: -1vw;
+    width: 51vw;
+    height: 8vh;
+}
+
+a{
+    color: #EA473C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+input{
+    margin-left: 2vw;
+    padding: 10px;
+    border: none;
+    width: 12vw;
+    height: 4vh;
+    font-size: large;
+    background: none;
+}
+
+
+button {
+    margin-top: 10vh;
+    margin-left: 38vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background: none;
+    border: unset;
+    cursor: pointer;
+    width: 57vw;
+    height: 10vh;
+    font-size: 2vw;
+    font-weight: bold;
+    color: green;
+    border: 1vw solid black;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.baloons {
+    position: relative;
+    top: -25vh;
+    left: -38vw;
+}
+
+.baloon {
+    width: 18vw;
+    height: 55vh;
+    animation: fly 2s infinite linear alternate;
+}
+
+button:hover{
+    background-color: #71ffba;
+}
+
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.icon {
+    width: 19vw;
+    position: absolute;
+    left: 8vw;
+    top: 32vw;
+    z-index: -1;
+}
+
+@keyframes fly {
+    0% {margin-top: 2vh}
+    100% {margin-top: -2vh}
+}
+
+
+
+@media(max-width: 1000px){
+    html {
+        background: url(Group\ 2.png) no-repeat bottom center;
+        width: 86vw;
+        height: 100vh;
+        background-size: 106vw 101vh;
+    }
+
+    body {
+        background: none;
+    }
+
+    .baloons {
+        display: none;
+    }
+
+    .icon {
+        width: 32vw;
+        position: absolute;
+        left: 18vw;
+        top: 72vh;
+        z-index: -1;
+    }
+
+    .text {
+        margin-top: 21vh;
+        margin-left: 6vw;
+        width: 78vw;
+        height: 49vh;
+        font-size: 5vw;
+        max-width: 78vw;
+    }
+    
+    .a2 {
+        top: 22vh;
+        position: absolute;
+        left: 36vw;
+      }
+
+      .a1 {
+        position: absolute;
+        top: 19.5vh;
+      }
+
+    .name {
+        position: absolute;
+        top: 44vh;
+        left: 0.5vw;
+        font-weight: bold;
+        font-size: 4.2vw;
+    }
+
+    .i2 {
+        position: absolute;
+        top: -4vh;
+        left: 18vw;
+        background: none;
+        width: 30vw;
+        height: 9vh;
+        border: none !important;
+        font-size: 4vw;
+    }
+
+    button {
+        margin-top: -1vh;
+        margin-left: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        background: none;
+        border: unset;
+        cursor: pointer;
+        width: 100vw;
+        height: 7vh;
+        font-size: 5vw;
+        font-weight: bold;
+        color: green;
+        border: 1vw solid black;
+        background-color: white;
+    }
+
+    .password {
+        position: absolute;
+        top: 51vh;
+        font-size: 5.3vw;
+        left: 2vw;
+        padding-left: 1vw;
+        padding-top: 1vh;
+        font-weight: bold;
+    }
+    
+    .enter {
+        position: absolute;
+        top: 58vh;
+        left: -1vw;
+        width: 100vw;
+        height: 8vh;
+    }
+
+    .i1 {
+        position: absolute;
+        left: 16.45vw;
+        background: none;
+        top: -2vh;
+        width: 30vw;
+        height: 18vw;
+        font-size: 5vw;
+    }
+}
